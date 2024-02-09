@@ -949,3 +949,7 @@ input {
     grid-template-columns: repeat(4, 1fr);
     column-gap: .625rem;
 }
+
+.details__small-img {
+    cursor: pointer;
+}

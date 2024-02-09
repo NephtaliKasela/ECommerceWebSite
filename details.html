@@ -14,6 +14,9 @@
 
     <!--============= CSS ===============-->
     <link rel="stylesheet" href="Assets/CSS/styles.css">
+
+    <!--============= Boxicons ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     
     
     
@@ -91,7 +94,7 @@
                 </a>
 
                 <a href="cart.html" class="header__action-btn">
-                    <img src="Assets/Img/" alt="">
+                    <!--<img src="Assets/Img/" alt="">-->
                     <i class='bx bx-shopping-bag' ></i>
                     <span class="count">3</span>
                 </a>
@@ -113,10 +116,10 @@
     <!--============= DETAILS ===============-->
     <section class="details section--lg">
         <div class="details__container container grid">
-            <div class="details__group" style="border: 1px solid violet;">
+            <div class="details__group">
                 <img src="Assets/Img/images/photo-1523293182086-7651a899d37f.avif" 
                     alt="" 
-                    class="details__img" style="border: 1px solid violet;">
+                    class="details__img">
                 
                 <div class="details__small-images grid">
                     <img src="Assets/Img/images/images (1).jpeg" 
@@ -134,6 +137,102 @@
                         class="details__small-img"
                     >
                 </div>
+            </div>
+
+            <div class="details__group">
+                <h3 class="details__title">Henley Shirt</h3>
+                <p class="details__brand">Brands: <span>adidas</span></p>
+
+                <div class="details__price flex">
+                    <span class="new__price">$116</span>
+                    <span class="old__price">$200.00</span>
+                    <span class="save__price">25% off</span>
+                </div>
+
+                <p class="short__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam ab itaque hic quam aut laudantium libero molestiae aspernatur nostrum dolores modi aliquam voluptatum saepe voluptates totam, ipsam, officia dolorum? Voluptatem.</p>
+
+                <ul class="product__list">
+                    <li class="list__item flex">
+                        <i class="fi-rs-crown"></i> 1 Year AL Jazeera Brand Warranty
+                    </li>
+
+                    <li class="list__item flex">
+                        <i class="fi-rs-refresh"></i> 30 Day Return Policy
+                    </li>
+
+                    <li class="list__item flex">
+                        <i class="fi-rs-credit-card"></i> Cash on Delivery available
+                    </li>
+                </ul>
+
+                <div class="details__color flex">
+                    <span class="details__color-title">Color</span>
+
+                    <ul class="color__list">
+                        <li>
+                            <a href="#" 
+                                class="color__link" 
+                                style="background-color: hsl(37, 100%, 65%);"
+                            ></a>
+                        </li>
+
+                        <li>
+                            <a href="#" 
+                                class="color__link" 
+                                style="background-color: hsl(353, 100%, 67%);"
+                            ></a>
+                        </li>
+
+                        <li>
+                            <a href="#" 
+                                class="color__link" 
+                                style="background-color: hsl(304, 100%, 78%);"
+                            ></a>
+                        </li>
+
+                        <li>
+                            <a href="#" 
+                                class="color__link" 
+                                style="background-color: hsl(126, 61%, 52%);"
+                            ></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="details__size flex">
+                    <span class="details__size-title">Size</span>
+
+                    <ul class="size__list">
+                        <li>
+                            <a href="#" class="color__link size-active">M</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="color__link">L</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="color__link">X</a>
+                        </li>
+                        <li>
+                            <a href="#" class="color__link">XXL</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="details__action">
+                    <input type="number" class="quantity" value="3">
+
+                    <a href="#" class="btn btn-sm">Add to Cart</a>
+
+                    <a href="#" class="details__action-btn">
+                        <i class="fi fi-rs-heart"></i>
+                    </a>
+                </div>
+
+                <ul class="details__meta">
+                    <li class="meta__list flex"></li>
+                </ul>
             </div>
         </div>
     </section>
